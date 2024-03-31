@@ -29,8 +29,10 @@ public class TestUtil {
   }
 
   @Test
-  public void test5() { // inputların toplamı bütün inputlara tam bölünmüyorsa false dönmeli.
-    Util util = new Util();
-    assertFalse(util.compute(3, 4, 6));
-  }
+  public void test5() { // inputların toplamı bütün inputlara tam bölünmüyorsa false
+    Util util= new Util();
+    assertFalse(util.compute(3,4,6));
+  }
+
+
 }

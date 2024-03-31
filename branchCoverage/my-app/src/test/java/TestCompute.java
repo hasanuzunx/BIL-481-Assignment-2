@@ -48,5 +48,8 @@ public class TestCompute {
     when(mq.contains("test")).thenReturn(true);
     when(mq.getAt(anyInt())).thenReturn("test");
     assertEquals(5, c.countNumberOfOccurrences("test"));
-  }
+  
+  }  
+
+
 }
